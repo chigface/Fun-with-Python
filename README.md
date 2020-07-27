@@ -28,3 +28,7 @@ Examples: spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" sp
 
 ## Categorize New Member
 The Western Suburbs Croquet Club has two categories of membership, Senior and Open. They would like your help with an application form that will tell prospective members which category they will be placed. To be a senior, a member must be at least 55 years old and have a handicap greater than 7. In this croquet club, handicaps range from -2 to +26; the better the player the lower the handicap.
+
+## Duplicate Encoder
+The goal of this exercise is to convert a string to a new string where each character in the new string is "(" if that character appears only once in the original string, or ")" if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate. 
+Examples "din" => "(((" "recede" => "()()()" "Success" => ")())())" "(( @" => "))((" Notes Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input!
