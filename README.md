@@ -35,3 +35,6 @@ Examples "din" => "(((" "recede" => "()()()" "Success" => ")())())" "(( @" => ")
 
 ### Anagram
 What is an anagram? Well, two words are anagrams of each other if they both contain the same letters. This function finds all the anagrams of a word from a list and returns an array of all the anagrams or an empty array if there are none.
+
+## Sum of Intervals
+This function called sum_of_intervals() accepts an array of intervals, and returns the sum of all the interval lengths. Overlapping intervals should only be counted once.
