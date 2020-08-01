@@ -38,3 +38,8 @@ What is an anagram? Well, two words are anagrams of each other if they both cont
 
 ## Sum of Intervals
 This function called sum_of_intervals() accepts an array of intervals, and returns the sum of all the interval lengths. Overlapping intervals should only be counted once.
+
+## ROT13
+ROT13 is a simple letter substitution cipher that replaces a letter with the letter 13 letters after it in the alphabet. ROT13 is an example of the Caesar cipher.
+
+This function takes a string and returns the string ciphered with Rot13. If there are numbers or special characters included in the string, they are returned as they are. Only letters from the latin/english alphabet is shifted, like in the original Rot13 "implementation".
