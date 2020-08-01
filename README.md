@@ -43,3 +43,14 @@ This function called sum_of_intervals() accepts an array of intervals, and retur
 ROT13 is a simple letter substitution cipher that replaces a letter with the letter 13 letters after it in the alphabet. ROT13 is an example of the Caesar cipher.
 
 This function takes a string and returns the string ciphered with Rot13. If there are numbers or special characters included in the string, they are returned as they are. Only letters from the latin/english alphabet is shifted, like in the original Rot13 "implementation".
+
+## Scramblies
+Complete the function scramble(str1, str2) that returns true if a portion of str1 characters can be rearranged to match str2, otherwise returns false.
+
+Notes:
+Only lower case letters will be used (a-z). No punctuation or digits will be included. Performance needs to be considered. Input strings str1 and str2 are null terminated.
+
+Examples
+scramble('rkqodlw', 'world') ==> True
+scramble('cedewaraaossoqqyt', 'codewars') ==> True
+scramble('katas', 'steak') ==> False
