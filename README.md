@@ -54,3 +54,8 @@ Examples
 scramble('rkqodlw', 'world') ==> True
 scramble('cedewaraaossoqqyt', 'codewars') ==> True
 scramble('katas', 'steak') ==> False
+
+## Product of consecutive Fib numbers
+Given a number, say prod (for product), we search two Fibonacci numbers F(n) and F(n+1) verifying
+F(n) * F(n+1) = prod.
+This function product_fib takes an integer (prod) and returns an array:
