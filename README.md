@@ -59,3 +59,14 @@ scramble('katas', 'steak') ==> False
 Given a number, say prod (for product), we search two Fibonacci numbers F(n) and F(n+1) verifying
 F(n) * F(n+1) = prod.
 This function product_fib takes an integer (prod) and returns an array:
+
+## RGB To Hex Conversion
+The rgb function is incomplete. Complete it so that passing in RGB decimal values will result in a hexadecimal representation being returned. Valid decimal values for RGB are 0 - 255. Any values that fall out of that range must be rounded to the closest valid value.
+
+## Tic-Tac-Toe Checker
+If we were to set up a Tic-Tac-Toe game, we would want to know whether the board's current state is solved, wouldn't we? Our goal is to create a function that will check that for us!
+#### We want our function to return:
+1. -1 if the board is not yet finished (there are empty spots),
+2. -1 if "X" won,
+3.  2 if "O" won,
+4.  0 if it's a cat's game (i.e. a draw).
